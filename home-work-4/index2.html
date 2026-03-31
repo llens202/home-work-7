@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Селектори CSS</title>
+    <link rel="stylesheet" href="./index2.css">
+</head>
+<body>
+<section class="container">
+    <!-- 1. Тег -->
+    <span>1.Елемент 1 (селектор тегу)</span>
+
+    <!-- 2. Клас -->
+    <div class="box-class">2. Елемент 2 (селектор класу)</div>
+
+    <!-- 3. ID -->
+    <div id="unique-id">3.Елемент 3 (селектор ID)</div>
+
+    <!-- 4. Атрибут -->
+    <div data-type="special">4.Елемент 4 (селектор атрибута)</div>
+
+    <!-- 5. Вкладений (нащадок) -->
+    <div class="nested-wrapper">
+        <p>5. Елемент 5 (вкладений селектор)</p>
+    </div>
+
+    <!-- 6. Дочірній -->
+    <ul class="parent-list">
+        <li>6. Елемент 6 (дочірній селектор)</li>
+    </ul>
+
+    <!-- 7. Послідовність (сусідній) -->
+    <div class="trigger">7.Послідовність селекторів</div>
+    <div class="follower">Елемент 1</div>
+    <div class="element2"> Елемент 2</div>
+    <div class="element3"> Елемент 3</div>
+
+
+    <!-- 8. Комбінація: Тег + Клас -->
+    <div class="item highlight">8. Елемент 8 (тег + клас)</div>
+
+    <!-- 9. Комбінація: Клас + Атрибут -->
+    <div class="status" data-active="true">9. Елемент 9 (клас + атрибут)</div>
+
+    <!-- 10. Складна комбінація: ID + Клас + Дочірній -->
+    <div id="main-nav">
+        <div class="link">10. Елемент 10 (ID + клас + дочірній)</div>
+    </div>
+</section>
+
+
+</body>
+</html>

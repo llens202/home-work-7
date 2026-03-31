@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../contacts.css">
+</head>
+<body>
+
+  <h1>Contacts</h1> 
+
+    <ul>
+    <li><a href="../index.html" title="Home">Home</a></li>
+  <li><a href="../pages/about.html" title="About">About</a></li>
+  <li><a href="../pages/articles.html" title="Articles">Articles</a></li>
+  <li><a href="../pages/contacts.html" title="Contacts">Contacts</a></li>
+  <li><a href="../pages/gallery.html" title="Callery">Callery</a></li>
+  <li><a href="../pages/anchors.html" title="Anchors">Anchors</a></li>
+  </ul>  
+
+  <br>
+<div class="container">
+  <form class="reg-form">
+  <fieldset>
+    <legend>Особиста інформація</legend>
+
+    <div>
+      <label for="name">Ім'я</label>
+      <input type="text" placeholder="Ім'я" id="name" name="name">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Email" id="email" name="email">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="password">Пароль</label>
+      <input type="password" placeholder="Пароль" id="password" name="password">
+    </div>
+
+    <br>
+
+    <div>
+      <label>Стать</label>
+      <input type="radio" name="gender" value="male"> Чоловік
+      <input type="radio" name="gender" value="female"> Жінка
+    </div>
+
+    <br>
+
+    <div>
+      <label>Мова</label>
+      <input type="checkbox" name="lang" value="ua"> Українська
+      <input type="checkbox" name="lang" value="en"> Англійська
+    </div>
+
+    <br>
+
+    <div>
+      <label>Країна</label>
+      <select name="country">
+        <option value="ua">Україна</option>
+        <option value="pl">Польща</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div>
+      <label>Повідомлення</label>
+      <textarea name="message"></textarea>
+    </div>
+
+  </fieldset>
+
+
+  <input type="submit" value="Відправити">
+
+  
+</form>
+</div>
+    
+</body>
+</html>

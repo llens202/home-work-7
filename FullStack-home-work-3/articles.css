@@ -1,0 +1,25 @@
+Ul {
+    display: flex;          /* Включает флексбокс */
+  justify-content: center; /* Центрирует элементы по горизонтали */
+  list-style: none;       /* Убирает маркеры списка */
+  padding: 0;             /* Убирает отступы */
+  margin: 0;              /* Убирает маркеры */
+  gap: 20px; 
+}
+
+* {
+    color: black;
+}
+
+h1, h2, u ,p {
+    text-align: center;
+}
+
+body {
+    background: url(./images/pngtree-tropical-leaves-with-windows-natural-shadow-overlay-on-grey-texture-background-image_442115.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    padding: 20px;
+}

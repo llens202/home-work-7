@@ -1,0 +1,63 @@
+
+ul {
+    list-style-type: none; /* Убирает точки */
+    padding-left: 0;       /* Убирает отступ слева */
+    margin: 0; 
+}
+
+
+Ul {
+    display: flex;          /* Включает флексбокс */
+  justify-content: center; /* Центрирует элементы по горизонтали */
+  list-style: none;       /* Убирает маркеры списка */
+  padding: 0;             /* Убирает отступы */
+  margin: 0;              /* Убирает маркеры */
+  gap: 20px; 
+}
+
+* {
+    color: black;
+}
+
+body {
+    background: url(./images/istockphoto-1022249066-612x612.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color:azure
+}
+
+.gallery {
+  display: grid;
+  /*  3 колонки */
+  grid-template-columns: repeat(3, 1fr); 
+  /*  2 ряда */
+  grid-template-rows: repeat(2, auto); 
+  gap: 15px;
+  padding: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  /* Чтобы сетка была идеально ровной */
+  aspect-ratio: 3 / 2; 
+  object-fit: cover;
+}
+
+.gallery img:hover {
+  transform: scale(1.02); /* Легкий зум при наведении */
+}
+
+body {
+    padding: 20px;
+}
+
+
+
+

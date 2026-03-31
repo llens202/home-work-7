@@ -1,0 +1,47 @@
+*{
+    color:black;
+}
+
+Ul {
+    display: flex;          /* Включает флексбокс */
+  justify-content: center; /* Центрирует элементы по горизонтали */
+  list-style: none;       /* Убирает маркеры списка */
+  padding: 0;             /* Убирает отступы */
+  margin: 0;              /* Убирает маркеры */
+  gap: 20px; 
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center;     /* Вертикальное центрирование */
+    height: 100vh;           /* Высота на весь экран */
+    background-color: #f0f0f0;
+}
+
+.reg-form {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Поля друг под другом */
+    gap: 10px;
+}
+
+body {
+    background: url(./images/pngtree-tropical-leaves-with-windows-natural-shadow-overlay-on-grey-texture-background-image_442115.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    padding: 20px;
+}
+
+

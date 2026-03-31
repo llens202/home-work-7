@@ -1,0 +1,48 @@
+* {
+    color: black
+
+}
+
+
+ul {
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+
+}
+
+p {
+   font-size:14px
+}
+p {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px; /* Радиус скругления */
+}
+
+ul {
+    list-style-type: none; /* Убирает точки */
+    padding-left: 0;       /* Убирает отступ слева */
+    margin: 0; 
+}
+
+
+Ul {
+    display: flex;          /* Включает флексбокс */
+  justify-content: center; /* Центрирует элементы по горизонтали */
+  list-style: none;       /* Убирает маркеры списка */
+  padding: 0;             /* Убирает отступы */
+  margin: 0;              /* Убирает маркеры */
+  gap: 20px; 
+}
+
+body {
+    background: url(./images/b40da31c4a9f6957269939bdfbfdcb09.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    padding: 20px;
+}
