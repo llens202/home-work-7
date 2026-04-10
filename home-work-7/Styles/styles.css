@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.text {
+    text-align: center;
+}
+
+
+.Block-1 {
+    background: greenyellow;
+    
+}
+
+.Block-2 {
+    width: 500px;
+    background: palegoldenrod;
+}
+
+.Block-3 {
+    background: yellow;
+}
+
+.inline {
+    color: red
+}

@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Block {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    height: 100px;
+}
+
+.Block-1 {
+    float: left;
+    background-color: aqua;
+    width: 100px;
+}
+
+
+.Block-2 {
+    float: right;
+    background-color: aquamarine;
+    width: 100px;
+}
+
+
+.Block-3 {
+    clear: both;
+    background-color: blanchedalmond;
+
+}
+
+.Block-4 {
+    float: left;
+    background-color: plum;
+    width: 100px;
+}
+
+.Block-5 {
+    float: right;
+    background-color: purple;
+    width: 100px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
